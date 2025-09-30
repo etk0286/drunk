@@ -10,7 +10,7 @@ clients = {}  #  {client_id: websocket}
 
 async def handler(websocket):
     try:
-        
+        #
         client_id = await websocket.recv()
         clients[client_id] = websocket
         print(f"[Server] {client_id} Connected")
