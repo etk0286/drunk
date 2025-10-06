@@ -1,0 +1,12 @@
+[
+    {
+        "id": 1,
+        "drink": "Mojito",
+        "status": "done"
+    },
+    {
+        "id": 2,
+        "drink": "Whiskey Sour",
+        "status": "pending"
+    }
+]

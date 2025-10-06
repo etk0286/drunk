@@ -10,7 +10,7 @@ const uint16_t port = 8765;
 WebSocketsClient webSocket;
 
 // ⚡ 每台機器給自己一個 ID
-String client_id = "ESP32_A";
+String client_id = "client1";
 
 void webSocketEvent(WStype_t type, uint8_t * payload, size_t length) {
   switch(type) {

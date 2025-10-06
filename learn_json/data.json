@@ -1,0 +1,5 @@
+{
+    "client_id": "ESP32_A",
+    "command": "LED_ON",
+    "value": 1
+}
